@@ -35,7 +35,7 @@ function getUserDetails() {
     }
     userDetailsDatabase["Email"] = email
 
-    let phoneNumber = prompt("Enter your digit")
+    let phoneNumber = prompt("Enter your Phone Number")
     if (phoneNumber == null){
         return 
     }
