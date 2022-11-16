@@ -4,6 +4,13 @@
     <meta charset="UTF-8" >
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>DOMMAN</title>
+    <style>
+        #newElement{
+            width:200px;
+            height:200px;
+            background-color: yellow;
+        }
+    </style>
 </head>
 
 <body>
@@ -14,6 +21,7 @@
          aperiam?</p>
          <input type="text" placeholder="Enter your text" id="name" 
          autocomplete="off">
+         <input type="email">
          
          <ul id="list">
              <li class="list-item">Mango</li>
@@ -22,8 +30,15 @@
              <li class="list-item">Guava</li>
 
          </ul>
+         
          <button >ReadMore</button>
-         <div id="new"></div>
+         <div id="newElement"></div>
+         <select>
+            <option value="1">One</option>
+            <option value="2">Two</option>
+            <option value="3">Three</option>
+            <option value="4">Four</option> 
+        </select>
          <!--<script src="js/Dom.js"></script>-->
          <script src="js/event.js"></script>
 </body>
